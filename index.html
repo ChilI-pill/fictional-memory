@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style1.css">
+        <link rel="shortcut icon" href="https://cdn.pixabay.com/photo/2016/04/20/15/36/earth-1341377_1280.png">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Discover The World</title>
+    </head>
+
+
+
+    
+    
+
+        <header>
+           <div id="header_elements">
+            <div class="left_element">
+              <img src="https://cdn.pixabay.com/photo/2016/04/20/15/36/earth-1341377_1280.png" alt="Logo">
+          
+        </div>
+
+       
+              </header>
+            </div>
+
+            
+          <br><br><br><br><br><br>
+        <h1>Choose a country!</h1>
+        <body>
+
+            <div class="choices">
+            <form action="weather.js" method="get">
+              <input type="radio" id="japan" name="country" value="japan"> 
+              <label for="country">Japan</label>
+              <input type="radio" id="uk" name="country" value="uk"> 
+              <label for="country">United Kingdom</label>
+              <input type="radio" id="us" name="country" value="us"> 
+              <label for="country">United States</label>
+              <input type="radio" id="canada" name="country" value="canada"> 
+              <label for="country">Canada</label>
+              <br><br><br>
+
+            </form>
+          </div>
+
+
+
+            <div class ="weather_api">
+              <table>
+                <tr>
+                  <th>Day</th>
+                  <th>High</th>
+                  <th>Low</th>
+                  </tr>
+              </table>
+
+                 <table id="weather" >
+                    <div id ="table_data">
+                  </table>
+                  <br><br><br>
+
+                  <button class="weather_button" onclick="weather_api()">show weather</button> 
+                  
+                  </div>
+                  </div>
+
+
+
+
+            <div class ="news_api"> 
+              <table>
+                <tr>
+                <th>Country</th>
+                <th>Title</th>
+                <th>Link</th>
+                <tr>
+              </table>
+
+              <div id ="table_data">
+                <table id="news">
+                  
+                </table>
+                <br><br><br>
+
+                  <button class="news_button" onclick="news_api()">show news</button>
+                
+                </div>
+                </div>
+
+
+            <div class ="covid_api"> 
+              <table>
+                <tr>
+                <th>Active</th>
+                <th>Critical</th>
+                <th>Recovered</th>
+                </tr>
+              </table>
+
+              <div id ="table_data">
+                <table id="covid">
+              </table>
+              <br><br><br>
+
+                  <button class="covid_button" onclick="covid_api()">show covid deaths</button>
+
+                </div>
+                </div>
+
+
+
+            <div class ="population_api"> 
+              
+              <table>
+                <tr>
+                <th>Population</th>
+                <th>Ranking</th>
+                <th>World share</th>
+                </tr>
+              </table>
+
+              <div id ="table_data">
+                <table id="population">
+                </table>
+                <br><br><br>
+
+                <button class="population_button" onclick="population_api()">show population</button>
+                
+                </div>
+                </div>
+    </body>
+
+    <script src="js\weather.js"></script>
+    <script src="js\news.js"></script>
+    <script src="js\covid.js"></script>
+    <script src="js\population.js"></script>
+
+    <br><br><br><br><br><br>
+    <footer>
+     Contact Information :
+     <br><br><br>
+     <i class="fa-solid fa-at"></i> Email : API@ltuc.com
+     <br><br>
+     <i class="fa-solid fa-phone"></i>  Phone Number : 07999999
+     <br><br>
+     <h5> &copy; 2022 Copyright</h5> 
+     
+   </footer>
+</html>
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
