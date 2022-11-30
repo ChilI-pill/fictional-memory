@@ -18,7 +18,7 @@
     console.log(location);
  
 
-    let base_url="https://google-news1.p.rapidapi.com/";
+    let base_url="https://news-api14.p.rapidapi.com/";
 
  let end_point="top-headlines";
 
@@ -36,7 +36,7 @@
 
      headers:{
 		'X-RapidAPI-Key':'ee10acdc04msh5f7adb96ded09d0p19f96cjsna26b53a0ba26',
-		'X-RapidAPI-Host':'google-news1.p.rapidapi.com'
+		'X-RapidAPI-Host':'news-api14.p.rapidapi.com'
 
  }
 
@@ -62,7 +62,7 @@ let table= '';
 
     table += `<td>` + news_data[i].published_date + `</td>`;
 
-    table += `<td>` + news_data[i].link + `</td>`;
+    table += `<td>` + news_data[i].url + `</td>`;
 
     table += `</tr>`;
   }
