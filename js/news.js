@@ -1,22 +1,22 @@
   async function news_api(){
-    
+
     let city;
-  
+
     if (document.getElementById('japan').checked == true) {
       city = 'JP';
-     
+
     } else if (document.getElementById('uk').checked == true) {
       city = 'GB';
-  
-     
+
+
     } else if (document.getElementById('us').checked == true) {
       city = 'US';
 
     } else if (document.getElementById('canada').checked == true) {
       city = 'CA';
-    } 
+    }
     console.log(location);
- 
+
 
     let base_url="https://news-api14.p.rapidapi.com/";
 
@@ -45,8 +45,8 @@
  let response = await fetch(url_params,options);
 
  let data = await response.json();
-  
- 
+
+
 
 let table= '';
 
@@ -69,5 +69,3 @@ let table= '';
 
   document.getElementById('news').innerHTML = table;
 }
-
-
