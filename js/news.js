@@ -68,4 +68,6 @@ let table= '';
   }
 
   document.getElementById('news').innerHTML = table;
-}
+
+
+
